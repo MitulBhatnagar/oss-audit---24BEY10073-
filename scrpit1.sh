@@ -3,7 +3,7 @@
 # Author: [Your Name] | Course: Open Source Software
 
 # --- Variables ---
-STUDENT_NAME="[Your Name]" 
+STUDENT_NAME="Mitul Bhatnagar" 
 SOFTWARE_CHOICE="Linux"
 # Fetching the distribution name from os-release
 DISTRO=$(grep ^PRETTY_NAME /etc/os-release | cut -d'"' -f2)
@@ -28,4 +28,4 @@ echo "Uptime       : $UPTIME"
 echo "Date/Time    : $CURRENT_DATE"
 echo "----------------------------------------"
 echo "This operating system is covered under the $LICENSE license."
-echo "========================================
+echo "========================================"
